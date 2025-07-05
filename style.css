@@ -1,0 +1,74 @@
+/* Estilos básicos para QuadMLabs */
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0 1rem;
+  background: #f9f9f9;
+  color: #222;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #004080;
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+  border-radius: 0 0 8px 8px;
+}
+
+header h1 {
+  margin: 0 0 0.5rem 0;
+}
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 0.1);
+}
+
+h2 {
+  color: #004080;
+  margin-top: 2rem;
+  border-bottom: 2px solid #004080;
+  padding-bottom: 0.3rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin: 0.5rem 0;
+  padding-left: 1.2rem;
+  position: relative;
+}
+
+ul li::before {
+  content: "✔";
+  color: #007700;
+  position: absolute;
+  left: 0;
+}
+
+a {
+  color: #004080;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  padding: 1rem 0;
+  margin-top: 3rem;
+  border-top: 1px solid #ddd;
+}
