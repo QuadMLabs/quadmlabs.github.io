@@ -59,11 +59,14 @@ nav a:hover {
 }
 
 footer {
+  max-width: 900px;
+  margin: 3rem auto 0;
   text-align: center;
   font-size: 0.9rem;
   color: #666;
   padding: 1rem 0;
-  margin: 3rem auto 0;
   border-top: 1px solid #ddd;
-  max-width: 900px;
+  background: white;
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 0.05);
 }
